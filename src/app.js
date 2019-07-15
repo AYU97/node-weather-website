@@ -26,7 +26,7 @@ app.use(express.static(publicDirectory));
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
-        name: 'Ayush',
+        name: 'Ayush Singh Gaur',
          footer: 'footer'
     });
 
@@ -36,7 +36,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Ashu ',
+        name: 'Ayush Singh Gaur ',
         footer:'footer'
     });
 
@@ -45,8 +45,8 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        title: 'Help',
-        name: 'Babu ',
+        title: 'Need Help?',
+        name: 'Ayush Singh Gaur ',
         footer: 'footer'
     });
 
